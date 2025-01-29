@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
-    "@prisma/client": "^6.2.1",
+    "@prisma/client": "^6.3.0",
+    "google-auth-library": "^9.15.1",
+    "googleapis": "^144.0.0",
     "next": "15.1.6",
     "next-auth": "^4.24.11",
     "react": "^19.0.0",
