@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 import { getSession } from 'next-auth/react';
 import { PrismaClient } from '@prisma/client';
-import { generateEmail } from '../utils/gemini';
+import { generateEmail } from '../../utils/gemini';
 
 const prisma = new PrismaClient();
 
